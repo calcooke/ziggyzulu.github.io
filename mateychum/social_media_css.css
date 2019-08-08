@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	height:127px;
+	border-radius: 25px 25px 0 0 ;
+	border-bottom:2px solid grey;
+	background-image: url('images/logo_3.gif');
+    background-repeat: no-repeat;
+    background-position: top;
+	
+}
+
+nav {
+	height:600px;
+	background-color:white;
+	border-right:2px solid grey;
+	
+}
+
+nav h1 {
+	text-align:center;
+}
+
+nav > h3 {
+	text-align:center;
+}
+
+main {
+	height:600px;
+}
+
+p:last-of-type {
+	font-size:10px;
+	font-style:italic;
+	color:#888888
+}
+
+section > div:first-child {
+	padding-top:5px;
+}
+
+form input {
+	 position: relative; 
+	top: -10px;
+}
+
+main section {
+	overflow:scroll;
+	overflow-x: hidden;
+	height:600px;
+}
+
+footer {
+	height:10px;
+	background-color:#4270B7;
+	border:2px solid grey;
+	border-radius: 0px 0px 15px 15px;
+}
+
+#right {
+	float:right;
+}
+
+div figure {
+	float:left;
+	
+}
+
+input {
+	display:inline;
+}
+
+figcaption{ 
+	clear:both;
+}
+
+nav > img:first-child{
+	margin-top:5px;
+}
+
+nav img {
+	margin-top:3px;
+}
+
+#gallery > div {
+	
+	width:33%;
+	box-shadow:  3px 3px 3px #888888;
+	padding-top:10px;
+	height:615px;
+}
+
+#gallery > input {
+	position:relative;
+	left:10px;
+}
+
+
+nav > article {
+	text-align:left;
+	margin-left:20px;
+}
+	
+#gallery em {
+	float:right;
+}
+
+figure > article {
+	padding:10px;
+}
+
+figure > h4 {
+	display:inline-block;
+	margin-left:20px;
+}
+
+hr {
+	margin:5px;
+}
+
+#gallery > div > form > input {
+	float:right;
+	position:relative;
+	left:20px;
+}
+
+a + textarea {
+	margin-top:5px;
+}
+
+
+section > div > div > aside {
+	padding-top:30px;
+}
+
+div > figure > figcaption {
+	text-align:center;	
+}
+
+#messages > div > figure > a > img {
+	display: block;
+    margin:auto;
+	box-shadow:  5px 5px 5px #888888;
+	
+}
+
+#messages > div >article {
+	
+    text-align: center;
+	position:relative;
+	bottom:-50px;
+	
+	
+}
+
+#messages > div {
+	padding:10px;
+	border:1px solid grey;
+	box-shadow: 10px 5px 5px #888888;
+	margin-bottom:7px;
+	
+}
+
+#messages div:first-child {
+	margin-top:-5px;
+}
+
+#messages > div > div {
+	background-color:#D4D4D4;
+	border-radius: 25px;
+	padding:10px;
+	overflow:scroll;
+	overflow-x: hidden;
+	height:400px;
+}
+
+#messages > div > div > div > form > input {
+	postion:relative;
+	top:2px;
+	align-content:center;
+	
+}
+
+#messages > div > div > div > form > input:last-child {
+	postion:relative;
+	left:190px;
+	
+}
+
+aside {
+	padding-left:50px;
+	
+}
+
+aside img {
+	padding-bottom:5px;
+}
+
+#messages > div > div > button {
+	position:relative;
+	top:2px;
+}
+
+
+#friends > div > figure > img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top:20px;
+		
+}
+
+div > a > img{
+	
+	padding-left:5px;
+	border-top:0px;
+}
+
+main > div > nav > div > h3 {
+	text-align:center;
+}
+
+main > div > nav > div > a {
+	padding-left:5px;
+}
+
+nav > a > img {
+	display:block;
+	margin:5px;
+	padding-left:25px;
+}
+
+section > div > div + article{
+	margin-top:20px;
+}
+
+section > div > div> a {
+	margin-left:10px;
+}
+	
