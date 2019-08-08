@@ -1,0 +1,522 @@
+@charset "utf-8";
+/* CSS Document */
+
+header > div div
+{
+	display:none;
+}
+
+main > div > nav
+{
+	display:none;
+}
+
+main > div > div > aside > form
+{
+	position:static;
+	margin:20px;
+}
+
+main > div > div > aside 
+{
+	width:50%;
+}
+
+main > div > div> figure > a
+{
+	
+	position:relative;
+	left:70px;
+	padding-top:30px;
+}
+
+main > div > div > section h4, p
+{
+	
+	margin-top:100px;
+  
+}
+
+main > div > div > article
+{
+	width:50%;
+	float:left;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:0px;
+	
+}
+
+main > div > div > article > P, h2
+{
+
+}
+
+figcaption
+{
+	padding:5px;
+}
+
+header
+{
+	height:270px;
+	width: 100%;
+	background-color:#121211;	
+}
+
+header > div > a > img 
+{
+	display: block;
+    margin:auto;
+	padding-top:10px;
+}
+
+main > div  article 
+{
+	padding-top:30px;
+}
+
+main > div > article
+{
+	position:relative;
+	left:20px;
+}
+
+main > div > aside form
+{
+	position:static;
+	margin:20px;
+}
+
+main > div + div > figure
+{
+	padding-bottom:40px;
+}
+
+nav
+{
+	width:100%;
+	background-color:#121211;
+	padding-bottom:10px;
+}
+
+nav  div > div
+ {
+	text-align: center;	
+}
+
+nav  div > div a
+ {
+	position:relative;
+	top: -10px;
+	padding:5px;
+}
+
+ul
+ {
+	padding:20px;
+	 display: block;
+    text-align:center;
+}
+
+figure
+{
+	padding:20px;
+}
+
+figure > img
+ {
+	display: block;
+    margin:auto;
+	box-shadow:  5px 5px 5px #888888;
+}
+
+div > h2
+{ 
+	text-align:center;
+	border-top: 1px, solid #121211;
+}
+
+figcaption
+{
+	text-align:center;
+}
+
+li
+{
+	padding:10px;
+	list-style:none;
+}
+
+main 
+{
+	background-color:#BAB8AB;
+}
+
+footer 
+{
+	background-color:#121211;
+	color:white;
+	padding:5px;
+}
+
+footer div
+{
+	padding-top:10px;
+	margin-bottom:10px;
+}
+
+footer > div > div:first-child{
+	width:50%;
+	padding-left:30px;
+	display:inline;
+}
+
+footer > div > div:last-child{
+	width:50%;
+	display:inline;
+}
+
+p {
+	display:inline;
+}
+
+footer a 
+{
+	padding-right:30px;
+	float:right;
+}
+
+aside
+{
+	
+	display:inline;
+	float:left;
+}
+
+aside a 
+{
+	display:block;
+	text-align:center;
+	margin-left:20px;
+	padding:10px;
+}
+
+main > div > section 
+{
+	overflow:scroll;
+	overflow-x: hidden;
+	height:700px;
+	width:80%;
+	display:inline;
+	float:right;
+}
+
+section > figure 
+{
+	margin-bottom:30px;
+	width:33.333%;
+	float:left;
+}
+
+main > div > figure > button 
+{
+	position:absolute;
+	right:43%
+}
+
+section > figure > button
+{
+	float:right;
+}
+
+form
+{
+	position:absolute;
+	top:0;
+	right:0;
+	color:grey;
+	margin-top:5px;
+	margin-right:5px;
+}
+	
+form input, textarea 
+{
+	 border-radius: 5px;
+}
+
+@media screen and (max-width: 1160px){
+
+img {
+	max-width:100%;
+}
+
+aside{
+	width:20%;
+	display:inline;
+	float:left;
+}
+
+main section {
+	width:80%;
+	display:inline;
+	float:right;
+}
+}
+
+@media screen and (max-width: 800px){
+	
+footer div + div
+{
+	margin-left:-30px;
+}
+	
+aside{
+	width:25%;
+	display:inline;
+	float:left;
+}
+
+main section {
+	width:75%;
+	display:inline;
+	float:right;
+}
+
+main > div > section{
+	width:70%;
+}
+
+}
+@media screen and (min-width: 600px) and (max-width: 799px){
+	aside{
+	width:30%;
+	display:inline;
+	float:left;
+}
+
+main section {
+	width:70%;
+	display:inline;
+	float:right;
+}
+}
+
+@media screen and (max-width: 799px){
+	aside{
+	width:30%;
+	display:inline;
+	float:left;
+}
+
+main section {
+	width:70%;
+	display:inline;
+	float:right;
+	
+}
+
+section > figure{
+	width:100%;
+}
+
+section > figure img{
+	float:left;
+}
+
+section > figure > button 
+{
+	float:right;
+	position:relative;
+	top:95px;
+}
+}
+
+@media screen and (max-width: 700px){
+
+footer div  
+{
+	float:left;
+	padding-left:20px;
+	display:block;
+}
+
+footer{
+padding:0px;
+}
+
+footer a
+{
+	float:left;
+}
+
+footer > div > div:first-child{
+	width:100%
+}
+
+footer > div > div:last-child{
+	width:100%;
+	margin-left:10px;
+}
+
+main > div > div > aside
+{
+	width:100%;
+}
+
+main > div > div > article
+{
+	width:100%;
+}
+
+main > div > div > aside > figure > a > img
+{
+	float:left;
+}
+}
+	
+@media screen and (max-width: 600px){
+
+main > div > article
+{
+	position:relative;
+	left:0px;
+	padding-top:0px;
+}
+
+main > div > nav:first-child
+{
+	display:block;
+	width:100%;
+	background-color:#BAB8AB;
+	text-align:center;
+}
+
+main > div > nav button 
+{
+	margin:10px;
+}
+
+main aside{
+	display:none;
+}
+
+main > div > div > aside
+{
+	display:inline;
+}
+
+main section {
+	clear:left;
+	float:left;
+	width:100%;
+}
+
+main > div > section {
+	width:100%;
+}
+
+section > figure > button 
+{
+	float:right;
+	position:static;
+	margin-top:45px;
+}
+
+section > figure > img
+{
+	height:150px;
+}
+
+main > div:first-child > article 
+{
+	width:100%;
+	display:block;
+}
+
+main > div:first-child > figure
+{
+	width:100%;
+	display:block;
+	padding:0px;
+}
+}
+
+@media screen and (max-width: 500px){
+
+header > div > form
+{
+	display:none;	
+}
+
+nav > div > div > a > img {
+	width:75px;
+}
+
+footer p
+{
+	display:block;
+}
+
+footer > div > div + div
+{
+	margin-top:-20px;
+}
+}
+
+@media screen and (max-width: 452px){
+	footer > div > div  a
+{
+	padding-left:0px;
+}
+
+main > div > nav button 
+{
+	margin:5px;
+}
+}
+
+@media screen and (min-width: 299px) and (max-width: 400px){
+	
+nav > div > div > a {
+	padding:0px;
+}
+
+section > figure > img{
+	height:100px;
+}
+
+main > div > nav:first-child
+{
+	display:none;
+	width:100%;
+	background-color:#BAB8AB;
+	text-align:center;
+}
+
+main > div > nav + nav
+{
+	display:block;
+	width:100%;
+	background-color:#BAB8AB;
+	text-align:center;
+}
+
+main > div > nav button 
+{
+	margin:4px;
+}
+}
+
+@media screen and (min-width: 299px) and (max-width: 342px){
+
+nav > div > div > a > img 
+{
+	width:60px;
+}
+
+nav > div > div > a{
+	padding:2px;
+}
+}
+
