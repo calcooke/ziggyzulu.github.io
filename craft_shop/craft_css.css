@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+footer { padding-top:10px;
+	 }
+
+nav { height:50px; padding:5px;
+	}
+
+figure { align:center;
+	}
+
+td, th { padding:20px;
+	}
+
