@@ -1,0 +1,86 @@
+<!doctype html><script type="text/javascript" src="membershipForm_js.js"></script>
+
+<html>
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
+<meta charset="utf-8">
+<title>Membership Form</title>
+<link href="membershipForm_css.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div>
+    
+        <header>
+        
+            <a><img src="images/logo.png" alt=" "></a>
+           
+        </header>
+    
+        <form>
+              
+                First name <br/>
+            
+                <input id="firstName" placeholder="First name...">
+            
+            <br/>Last name <br/>
+            
+                <input id="lastName" placeholder="Last name..."> 
+            
+            <br/>Date of payment<br>
+        
+                <input type ="date" id="paymentDate" placeholder="Date...">
+            
+            <br/>Amount paid<br/>
+            
+                <input id="amountPaid" placeholder="Amount paid...">
+            
+            <br/>Membership type<br>
+           
+                <select id="memberType">
+            
+                    <option>Individual</option>
+                    <option>Familiy</option>
+                    <option>Pensioner</option>
+                    <option>Child</option>
+            
+                </select>
+        
+            <br/>
+            
+      </form>
+    
+        <button id="submit" onClick="create();">Submit</button>
+        
+        
+    </div>
+        
+    <div id="tables">
+       
+        <table>
+        
+            <tr>
+                <th onclick = "sortArrayName()">First name</th>
+                <th onclick = "sortArrayLastName()">Last name</th>
+                <th onclick = "sortArrayDate()">Date of payment</th>
+                <th onclick = "sortPayment()">Amount paid</th>
+                <th onclick = "sortMembershipType()">Membership type</th>
+                <th> Remove </th>
+            </tr>
+        
+        </table >
+    
+        <table id="theTable">
+    
+            
+        </table>
+        
+    </div>
+    
+    <footer>
+    
+    </footer>
+
+</body>
+</html>
