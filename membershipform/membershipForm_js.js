@@ -174,5 +174,7 @@ var members = [];       //Create an empty array called members
 			document.getElementById("theTable").deleteRow(i); //Delete the row index
 			
 			delete members[i];
+		
+			addToTable()
 			
 	}
