@@ -1,0 +1,97 @@
+body {
+  background-color: #2c2a2a;
+}
+
+tr {
+  color: yellow;
+}
+
+header {
+	height:40px;
+	width: 100%;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;  
+}
+  
+/* ID needed to override Bootstrap properties */
+#menuBar {
+    color: yellow;    
+}
+/* Set height of the grid so .sidenav can be 100% */
+.row.content {height: 100%}
+  
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: rgb(34, 34, 34);
+  border: 2px;
+  border-color: #080808;
+  height: 100%;
+}
+  
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #222;
+  border: 1px solid #080808;
+  color: yellow;
+  padding:10px;
+}
+
+.text {
+  background-color: #2c2a2a;
+  color: yellow;
+  padding: 0px;
+}
+  
+
+@media screen and (max-width: 767px) {
+
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .row.content {
+    height:auto;
+  } 
+}
+
+ul {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.selected{
+  background-color: #080808;;
+}
+   
+.list {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  background-color:#121211;
+  color: yellow;
+  height: 30px;
+  border-radius: 5px;
+  margin:5px;
+}
+
+.sideList{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: yellow;
+  margin-top: 10px;
+  padding:3px;
+  border-radius: 5px;
+  border: 1px solid #080808;
+}
+
+.actionButton{
+  background-color:#222;
+  border: 1px solid black;
+  margin: 10px 0 10px 0;
+  padding:3px 5px 3px 5px;
+  border-radius: 5px;
+}
